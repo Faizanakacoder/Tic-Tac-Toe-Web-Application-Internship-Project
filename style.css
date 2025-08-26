@@ -1,0 +1,97 @@
+/* Page Layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+/* Board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cell:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+.cell.taken {
+  cursor: not-allowed;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Status */
+#status {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* Button */
+button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #ff6b6b;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #ff4757;
+  transform: scale(1.05);
+}
+/* Footer / Signature */
+footer {
+  margin-top: 25px;
+  font-size: 0.9em;
+  color: #eee;
+  opacity: 0.85;
+}
+
+footer p {
+  margin: 3px 0;
+}

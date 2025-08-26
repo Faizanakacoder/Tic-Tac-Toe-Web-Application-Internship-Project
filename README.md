@@ -71,9 +71,9 @@ cd Tic-Tac-Toe-Web-Application-Internship-Project
 
 Here are some visuals of the Tic Tac Toe Web Application:
 
-START SCREEN ![Game Start Screen](https://github.com/Faizanakacoder/Tic-Tac-Toe-Web-Application-Internship-Project/blob/main/start-screen.png)
-![Gameplay Example](https://github.com/Faizanakacoder/Tic-Tac-Toe-Web-Application-Internship-Project/blob/main/draw.png)
-![Win Detection](https://github.com/Faizanakacoder/Tic-Tac-Toe-Web-Application-Internship-Project/blob/main/win-screen.png)
+GAME_START_SCREEN ![Game Start Screen](https://github.com/Faizanakacoder/Tic-Tac-Toe-Web-Application-Internship-Project/blob/main/start-screen.png)
+GAME_DRAW![Gameplay Example](https://github.com/Faizanakacoder/Tic-Tac-Toe-Web-Application-Internship-Project/blob/main/draw.png)
+WIN_DETECTION ![Win Detection](https://github.com/Faizanakacoder/Tic-Tac-Toe-Web-Application-Internship-Project/blob/main/win-screen.png)
 
 ---
 

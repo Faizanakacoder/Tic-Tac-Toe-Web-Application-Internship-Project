@@ -71,18 +71,9 @@ cd Tic-Tac-Toe-Web-Application-Internship-Project
 
 Here are some visuals of the Tic Tac Toe Web Application:
 
-**Game Start Screen**
-![Game Start Screen](<img width="1816" height="884" alt="Screenshot 2025-08-26 175517" src="https://github.com/user-attachments/assets/c803fd24-c3a2-45d8-b51f-17661cf85592" />
-)
-
-**Gameplay Example**
-![Gameplay Example](<img width="1872" height="903" alt="Screenshot 2025-08-26 175806" src="https://github.com/user-attachments/assets/1ae95b74-0649-4378-9811-ad136841de50" />
-)
-
-**Win Detection**
-![Win Detection](<img width="1872" height="903" alt="Screenshot 2025-08-26 175806" src="https://github.com/user-attachments/assets/b12f843e-2e25-4794-95eb-bebdd0bb9f7d" />
-)
-
+![Game Start Screen](images/start-screen.png)
+![Gameplay Example](images/draw.png)
+![Win Detection](images/win-screen.png) 
 ---
 
 ## Project Notes
